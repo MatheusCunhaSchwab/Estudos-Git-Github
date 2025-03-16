@@ -17,56 +17,56 @@ Este repositório foi criado com o objetivo de praticar e aprimorar os conhecime
 **Alguns dos comandos do Git que serão utilizados e estudados:**
 
 ### Configuração inicial
-"git config --global user.name "Seu Nome""
+git config --global user.name "Seu Nome"
 
-"git config --global user.email "seuemail@example.com""
+git config --global user.email "seuemail@example.com"
 
 
 ### Inicializar um repositório
-"git init"
+git init
 
 
 ### Clonar um repositório
-"git clone <URL-do-repositorio>"
+git clone 'URL-do-repositorio'
 
 
 ### Adicionar arquivos ao staging
-"git add <arquivo>"
+git add 'arquivo''
 
 
 ### Criar um commit
-"git commit -m "Mensagem do commit""
+git commit -m "Mensagem do commit"
 
 
 ### Verificar o status do repositório
-"git status"
+git status
 
 
 ### Ver o histórico de commits
-"git log"
+git log
 
 
 ### Ver versões de commits
-"git reflog"
+git reflog
 
 
 ### Visualizar branchs
-"git branch"
+git branch
 
 
 ### Criar e alternar entre branches
-"git branch <nome-da-branch>"
+git branch 'nome-da-branch'
 
-"git checkout <nome-da-branch>"
+git checkout 'nome-da-branch'
 
 
 ### Mesclar branches
-"git merge <nome-da-branch>"
+git merge 'nome-da-branch'
 
 
 ### Enviar alterações para o GitHub
-"git push origin <nome-da-branch>"
+git push origin 'nome-da-branch
 
 
 ### Baixar alterações do repositório remoto
-"git pull origin <nome-da-branch>"
+git pull origin 'nome-da-branch'

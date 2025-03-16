@@ -62,7 +62,8 @@ git branch 'nome-da-branch'
 git checkout 'nome-da-branch'
 
 
-###permite mudar e criar uma nova branch com base em outra
+### permite mudar e criar uma nova branch com base em outra
+
 git checkout -b "nome da branch de origem" "nome da nova branch"  
 
 

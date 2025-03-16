@@ -17,7 +17,8 @@ Comandos Importantes
 Alguns dos comandos do Git que serão utilizados e estudados:
 
 ### Configuração inicial
-git config --global user.name "Seu Nome"
+git config --global user.name "Seu Nome" 
+
 git config --global user.email "seuemail@example.com"
 
 ### Inicializar um repositório

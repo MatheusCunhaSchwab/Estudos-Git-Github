@@ -80,5 +80,7 @@ git pull origin 'nome-da-branch'
 
 ### fazer não subir arquivos indesejados
 touch .gitignore
+
 (adicionar o nome do arquivo a .gitignore)
+
 git add .gitignore

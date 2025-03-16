@@ -1,2 +1,3 @@
 insira email
 insira senha
+insira idade

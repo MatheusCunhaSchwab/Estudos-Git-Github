@@ -33,6 +33,8 @@ git clone 'URL-do-repositorio'
 ### Adicionar arquivos
 git add 'arquivo'
 
+git add . (para add todos os arquivos)
+
 
 ### Criar um commit
 git commit -m "Mensagem do commit"
@@ -60,6 +62,10 @@ git branch 'nome-da-branch'
 git checkout 'nome-da-branch'
 
 
+###permite mudar e criar uma nova branch com base em outra
+git checkout -b "nome da branch de origem" "nome da nova branch"  
+
+
 ### Mesclar branches
 git merge 'nome-da-branch'
 
@@ -70,3 +76,9 @@ git push origin 'nome-da-branch
 
 ### Baixar alterações do repositório remoto
 git pull origin 'nome-da-branch'
+
+
+### fazer não subir arquivos indesejados
+touch .gitignore
+(adicionar o nome do arquivo a .gitignore)
+git add .gitignore

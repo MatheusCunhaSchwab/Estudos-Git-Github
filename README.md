@@ -30,8 +30,8 @@ git init
 git clone 'URL-do-repositorio'
 
 
-### Adicionar arquivos ao staging
-git add 'arquivo''
+### Adicionar arquivos
+git add 'arquivo'
 
 
 ### Criar um commit

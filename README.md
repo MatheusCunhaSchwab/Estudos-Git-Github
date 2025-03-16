@@ -16,40 +16,40 @@ Comandos Importantes
 
 Alguns dos comandos do Git que serão utilizados e estudados:
 
-# Configuração inicial
+### Configuração inicial
 git config --global user.name "Seu Nome"
 git config --global user.email "seuemail@example.com"
 
-# Inicializar um repositório
+### Inicializar um repositório
 git init
 
-# Clonar um repositório
+### Clonar um repositório
 git clone <URL-do-repositorio>
 
-# Adicionar arquivos ao staging
+### Adicionar arquivos ao staging
 git add <arquivo>
 
-# Criar um commit
+### Criar um commit
 git commit -m "Mensagem do commit"
 
-# Verificar o status do repositório
+### Verificar o status do repositório
 git status
 
-# Ver o histórico de commits
+### Ver o histórico de commits
 git log
 
-# Ver versões de commits
+### Ver versões de commits
 git reflog
 
-# Criar e alternar entre branches
+### Criar e alternar entre branches
 git branch <nome-da-branch>
 git checkout <nome-da-branch>
 
-# Mesclar branches
+### Mesclar branches
 git merge <nome-da-branch>
 
-# Enviar alterações para o GitHub
+### Enviar alterações para o GitHub
 git push origin <nome-da-branch>
 
-# Baixar alterações do repositório remoto
+### Baixar alterações do repositório remoto
 git pull origin <nome-da-branch>
